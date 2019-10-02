@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context="com.example.miskewolf.opencvradi.MainActivity">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/llogo"
+        android:layout_alignParentTop="true"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_height="wrap_content"
+        android:text="@string/put_masks_on_faces"
+        android:layout_marginTop="32dp"
+        android:id="@+id/textView1"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/ImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/logo"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/okvir" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:accessibilityLiveRegion="none"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff"
+        android:layout_height="66dp"
+        android:layout_marginTop="-19dp"
+        android:layout_alignTop="@+id/textView1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/ImageView2"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_differences"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView2"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/ImageView3"
+        android:layout_below="@id/ImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/okvir" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:accessibilityLiveRegion="none"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff"
+        android:layout_height="66dp"
+        android:layout_marginTop="-19dp"
+        android:layout_alignTop="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/ImageView3"
+        android:layout_height="wrap_content"
+        android:text="@string/recognize_face"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView4"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/ImageView4"
+        android:layout_below="@id/ImageView3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/okvir" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:accessibilityLiveRegion="none"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff"
+        android:layout_height="66dp"
+        android:layout_marginTop="-19dp"
+        android:layout_alignTop="@+id/textView4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/ImageView4"
+        android:layout_height="wrap_content"
+        android:text="@string/add_face_filters"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView5"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/ImageView5"
+        android:layout_below="@id/ImageView4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/okvir" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:accessibilityLiveRegion="none"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff"
+        android:layout_height="66dp"
+        android:layout_marginTop="-19dp"
+        android:layout_alignTop="@+id/textView5" />
+
+<io.ghyeok.stickyswitch.widget.StickySwitch
+    android:id="@+id/sticky"
+
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:iconSize="10dp"
+    app:iconPadding="15dp"
+    app:selectedTextSize="14sp"
+    app:textSize="12sp"
+    app:leftIcon="@drawable/ic_add"
+    app:leftText="ENG"
+    app:rightIcon="@drawable/ic_add"
+    app:rightText="SRB"
+    app:switchColor="#34893D"
+    app:sliderBackgroundColor="#ffffff"
+    />
+
+</RelativeLayout>

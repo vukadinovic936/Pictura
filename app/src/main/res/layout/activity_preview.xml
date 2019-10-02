@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.miskewolf.opencvradi.Preview">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/up"
+        android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame"
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cameraImage"
+        />
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/back1"
+        android:background="@drawable/whiteplusorange"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:text="@string/back"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/save1"
+        android:text="@string/save_image"
+        android:background="@drawable/pop_up_orange"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

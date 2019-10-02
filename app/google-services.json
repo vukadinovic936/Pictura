@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "154194295820",
+    "firebase_url": "https://opencvradi.firebaseio.com",
+    "project_id": "opencvradi",
+    "storage_bucket": "opencvradi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154194295820:android:01d44f2bfa84ff1a",
+        "android_client_info": {
+          "package_name": "com.example.miskewolf.opencvradi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154194295820-jn5e0a4i00mfjui57v6q6h1h7ono922v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.miskewolf.opencvradi",
+            "certificate_hash": "e58f09c47529944eec16cb0231bf2818bcaa6ae4"
+          }
+        },
+        {
+          "client_id": "154194295820-afekp4gnmkj1u7s5p5qpmqetf8bpr3gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4TM7SQJSSu-p0iAYEKjPsWx4g2JZ0BSI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154194295820-afekp4gnmkj1u7s5p5qpmqetf8bpr3gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

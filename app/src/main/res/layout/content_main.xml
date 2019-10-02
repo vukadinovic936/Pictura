@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    xmlns:SeekBarArrows="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context="com.example.miskewolf.opencvradi.Recognition"
+    tools:showIn="@layout/app_bar_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        style="?metaButtonBarButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <com.example.miskewolf.opencvradi.SeekBarArrows
+            android:id="@+id/threshold_face"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            SeekBarArrows:text="@string/chances_for_face_detection"
+            SeekBarArrows:max=".5"
+            SeekBarArrows:n_values="500" />
+        <com.example.miskewolf.opencvradi.SeekBarArrows
+            android:id="@+id/threshold_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            SeekBarArrows:text="@string/threshold_distance"
+            SeekBarArrows:max=".5"
+            SeekBarArrows:n_values="500" />
+        <Button
+            android:id="@+id/take_picture_button"
+            style="?metaButtonBarButtonStyle"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="@color/black_overlay"
+            android:textColor="@android:color/white"
+            android:text="@string/picture_button" />
+
+    </LinearLayout>
+
+</RelativeLayout>
